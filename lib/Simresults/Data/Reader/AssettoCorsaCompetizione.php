@@ -256,6 +256,7 @@ class Data_Reader_AssettoCorsaCompetizione extends Data_Reader {
             // Create vehicle and add to participant
             $vehicle = new Vehicle;
             $vehicle->setName($vehicle_name);
+            $vehicle->setType($car_model);
 
             // Has vehicle number
             if (NULL !==
